@@ -56,45 +56,10 @@
     }
   ],
   "types": [
-    {
-      "id": "gjenerale",
-      "name": "Gjenerale",
-      "resources": [
-        "Klan",
-        "Top Channel"
-      ]
-    },
-    {
-      "id": "kombetare",
-      "name": "Kombetare",
-      "resources": [
-        "Rtsh 1",
-        "Rtsh 2"
-      ]
-    },
-    {
-      "id": "filma",
-      "name": "Filma",
-      "resources": [
-        "Film Aksion",
-        "Tring Super"
-      ]
-    },
-    {
-      "id": "sport",
-      "name": "Sport",
-      "resources": [
-        "Super Sport 2",
-        "Tring Sport 1"
-      ]
-    },
-    {
-      "id": "tehuaj",
-      "name": "Te huaj",
-      "resources": [
-        "National Geographic HD",
-        "Discovery Channel HD"
-      ]
-    }
+    "Gjenerale",
+    "Kombetare",
+    "Filma",
+    "Sport",
+    "Te huaj"
   ]
 }
