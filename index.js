@@ -52,6 +52,10 @@ module.exports = builder.getInterface();
 const express = require("express");
 const app = express();
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Kanale Shqip Addon!');
+});
+
 
 app.get("/manifest.json", (req, res) => {
   res.json(builder.getInterface().manifest);
