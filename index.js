@@ -67,7 +67,6 @@ app.get("/stream/:type/:id.json", async (req, res) => {
   res.json({ streams });
 });
 
-const { addonBuilder } = require("stremio-addon-sdk");
 const server = require('http').createServer(app); 
 
 const port = process.env.PORT || 10000;
