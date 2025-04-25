@@ -1,0 +1,84 @@
+{
+  "id": "kanale-shqip-addon",
+  "version": "1.0.0",
+  "name": "Kanale Shqip",
+  "description": "Stremio addon that provides live 24/7 Albanian TV channels.",
+  "types": ["video"],
+  "categories": [
+    {
+      "name": "Gjenerale",
+      "items": [
+        {
+          "name": "Klan",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
+        },
+        {
+          "name": "Top Channel",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Kombetare",
+      "items": [
+        {
+          "name": "Rtsh 1",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
+        },
+        {
+          "name": "Rtsh 2",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Filma",
+      "items": [
+        {
+          "name": "Film Aksion",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
+        },
+        {
+          "name": "Tring Super",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sport",
+      "items": [
+        {
+          "name": "Super Sport 2",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
+        },
+        {
+          "name": "Tring Sport 1",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Te huaj",
+      "items": [
+        {
+          "name": "National Geographic HD",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
+        },
+        {
+          "name": "Discovery Channel HD",
+          "type": "video",
+          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
+        }
+      ]
+    }
+  ]
+}
