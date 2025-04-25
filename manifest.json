@@ -7,62 +7,52 @@
     {
       "type": "video",
       "name": "Klan",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
     },
     {
       "type": "video",
       "name": "Top Channel",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
     },
     {
       "type": "video",
       "name": "Rtsh 1",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
     },
     {
       "type": "video",
       "name": "Rtsh 2",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
     },
     {
       "type": "video",
       "name": "Film Aksion",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
     },
     {
       "type": "video",
       "name": "Tring Super",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
     },
     {
       "type": "video",
       "name": "Super Sport 2",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
     },
     {
       "type": "video",
       "name": "Tring Sport 1",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
     },
     {
       "type": "video",
       "name": "National Geographic HD",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
     },
     {
       "type": "video",
       "name": "Discovery Channel HD",
-      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8",
-      "types": ["stream"]
+      "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
     }
   ],
   "categories": [
