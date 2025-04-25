@@ -1,119 +1,77 @@
 {
-  "id": "ext.kanaleshqip",
-  "version": "1.0.0",
-  "name": "Kanale Shqip",
-  "description": "Watch live Albanian TV channels",
-  "resources": [
-    "catalog",
-    "stream",
-    "meta"
-  ],
-  "types": [
-    "tv"
-  ],
-  "idPrefixes": [
-    "kanaleshqip:",
-    "tv"
-  ],
-  "catalogs": [
-    {
-      "type": "tv",
-      "id": "kanaleshqip_live_tv",
-      "name": "Kanale Shqip Live TV",
-      "extra": [
+    "id": "com.kanaleshq.stremio",
+    "version": "1.0.0",
+    "name": "Kanale Shqip",
+    "description": "Live Albanian TV channels",
+    "types": ["movie", "series", "channel"],
+    "icon": "https://example.com/icon.png",
+    "catalogs": [
         {
-          "name": "genre",
-          "options": [
-            "Gjenerale",
-            "Kombëtare",
-            "Filma",
-            "Sport",
-            "Te Huaj"
-          ]
+            "id": "tv",
+            "name": "TV Channels",
+            "genres": ["Gjenerale", "Kombetare", "Filma", "Sport", "Te huaj"],
+            "items": [
+                {
+                    "name": "Klan",
+                    "id": "klansh",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
+                },
+                {
+                    "name": "Top Channel",
+                    "id": "topchannel",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
+                },
+                {
+                    "name": "Rtsh 1",
+                    "id": "rtsh1",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
+                },
+                {
+                    "name": "Rtsh 2",
+                    "id": "rtsh2",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
+                },
+                {
+                    "name": "Film Aksion",
+                    "id": "filmaksion",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
+                },
+                {
+                    "name": "Tring Super",
+                    "id": "tringsuper",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
+                },
+                {
+                    "name": "Super Sport 2",
+                    "id": "supersport2",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
+                },
+                {
+                    "name": "Tring Sport 1",
+                    "id": "tringsport1",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
+                },
+                {
+                    "name": "National Geographic HD",
+                    "id": "natgeo",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
+                },
+                {
+                    "name": "Discovery Channel HD",
+                    "id": "discovery",
+                    "type": "channel",
+                    "uri": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
+                }
+            ]
         }
-      ],
-      "items": [
-        {
-          "type": "tv",
-          "id": "kanaleshqip_klan",
-          "name": "Klan",
-          "genre": "Gjenerale",
-          "poster": "URL_to_klan_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_top_channel",
-          "name": "Top Channel",
-          "genre": "Kombëtare",
-          "poster": "URL_to_top_channel_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_rtsh1",
-          "name": "Rtsh 1",
-          "genre": "Kombëtare",
-          "poster": "URL_to_rtsh1_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_rtsh2",
-          "name": "Rtsh 2",
-          "genre": "Kombëtare",
-          "poster": "URL_to_rtsh2_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_film_aksion",
-          "name": "Film Aksion",
-          "genre": "Filma",
-          "poster": "URL_to_film_aksion_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_tring_super",
-          "name": "Tring Super",
-          "genre": "Filma",
-          "poster": "URL_to_tring_super_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_super_sport2",
-          "name": "Super Sport 2",
-          "genre": "Sport",
-          "poster": "URL_to_super_sport2_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_tring_sport1",
-          "name": "Tring Sport 1",
-          "genre": "Sport",
-          "poster": "URL_to_tring_sport1_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_nat_geo_hd",
-          "name": "National Geographic HD",
-          "genre": "Te Huaj",
-          "poster": "URL_to_nat_geo_hd_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
-        },
-        {
-          "type": "tv",
-          "id": "kanaleshqip_discovery_hd",
-          "name": "Discovery Channel HD",
-          "genre": "Te Huaj",
-          "poster": "URL_to_discovery_hd_poster_image",
-          "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
-        }
-      ]
-    }
-  ]
+    ]
 }
