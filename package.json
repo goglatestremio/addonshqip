@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "stremio-addon-sdk": "^4.0.0"
+    "stremio-addon-sdk": "^2.0.0"
   },
   "devDependencies": {},
   "repository": {
