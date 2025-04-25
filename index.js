@@ -73,7 +73,7 @@ app.get("/stream/:type/:id.json", async (req, res) => {
 
 const server = require('http').createServer(app); 
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 7000;
 server.listen(port, () => {
   console.log(`✅ Server is running at http://0.0.0.0:${port}/manifest.json`);
 });
