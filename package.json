@@ -1,13 +1,32 @@
 {
   "name": "kanale-shqip-addon",
   "version": "1.0.0",
-  "description": "Addon for Albanian live TV channels",
+  "description": "Addon with Albanian live channels for Stremio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "stremio-addon-sdk": "^5.0.0"
-  }
+    "stremio-addon-sdk": "^4.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goglatestremio/addonshqip.git"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "tv",
+    "live",
+    "albanian",
+    "channels"
+  ],
+  "author": "goglatestremio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goglatestremio/addonshqip/issues"
+  },
+  "homepage": "https://github.com/goglatestremio/addonshqip#readme"
 }
