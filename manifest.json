@@ -5,58 +5,60 @@
   "description": "A Stremio addon to stream live Albanian TV channels",
   "resources": [
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Klan",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Top Channel",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Rtsh 1",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Rtsh 2",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "movie",
       "name": "Film Aksion",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "movie",
       "name": "Tring Super",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Super Sport 2",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Tring Sport 1",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "National Geographic HD",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
     },
     {
-      "type": "live_tv",
+      "type": "tv",
       "name": "Discovery Channel HD",
       "url": "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
     }
   ],
   "types": [
-    "live_tv"
+    "movie",
+    "series",
+    "tv"
   ],
   "categories": {
     "Gjenerale": [
