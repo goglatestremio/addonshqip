@@ -77,3 +77,91 @@ const port = process.env.PORT || 7000;
 server.listen(port, () => {
   console.log(`✅ Server is running at http://0.0.0.0:${port}/manifest.json`);
 });
+function getCatalogs() {
+    try {
+        // Define the channels and genres
+        const channels = [
+            {
+                name: "Klan",
+                id: "klansh",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261956.m3u8"
+            },
+            {
+                name: "Top Channel",
+                id: "topchannel",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261954.m3u8"
+            },
+            {
+                name: "Rtsh 1",
+                id: "rtsh1",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261964.m3u8"
+            },
+            {
+                name: "Rtsh 2",
+                id: "rtsh2",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/261965.m3u8"
+            },
+            {
+                name: "Film Aksion",
+                id: "filmaksion",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262027.m3u8"
+            },
+            {
+                name: "Tring Super",
+                id: "tringsuper",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262039.m3u8"
+            },
+            {
+                name: "Super Sport 2",
+                id: "supersport2",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262222.m3u8"
+            },
+            {
+                name: "Tring Sport 1",
+                id: "tringsport1",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262243.m3u8"
+            },
+            {
+                name: "National Geographic HD",
+                id: "natgeo",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262189.m3u8"
+            },
+            {
+                name: "Discovery Channel HD",
+                id: "discovery",
+                type: "channel",  // Ensure "type" is included
+                uri: "http://a1.lion.wine:80/live/x9Kw7670/8cxU9044/262191.m3u8"
+            }
+        ];
+
+        const genres = ["Gjenerale", "Kombetare", "Filma", "Sport", "Te huaj"];
+        
+        // Log genres and channels to check
+        console.log("Fetched genres:", genres);
+        console.log("Fetched channels:", channels);
+
+        // Return catalog with genres and channels
+        return [
+            {
+                id: "tv",                   // Catalog ID
+                name: "TV Channels",        // Catalog Name
+                type: "channel",            // Catalog type (must be "channel" or "movie")
+                genres: genres,             // Genres
+                items: channels             // Items (Channels)
+            }
+        ];
+    } catch (error) {
+        console.error("Failed to fetch genres or channels:", error);
+        return [];
+    }
+}
+
